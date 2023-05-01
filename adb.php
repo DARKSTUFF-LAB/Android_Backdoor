@@ -4,7 +4,7 @@
 // Define the command to execute
 $command = "adb shell ls /sdcard/";
 
-// Execute the command using proc_open to avoid shell injection
+// Execute the command using pro_open to avoid shell injection
 $descriptorspec = array(
     0 => array("pipe", "r"),
     1 => array("pipe", "w"),
